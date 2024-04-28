@@ -1,0 +1,77 @@
+.chat-box-container{
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.chat-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.chat-header h2{
+    margin: 0;
+    font-size: 1.5rem;
+    color: #FF69B4;
+}
+
+.continue-shopping-button{
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    background-color: #FF69B4; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.continue-shopping-button:hover{
+    background-color: #FF85B2; 
+}
+
+.chat-messages{
+    overflow-y: visible;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+}
+
+.message{
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: #FFEBEE; 
+    align-self: flex-start;
+    max-width: 70%;
+}
+
+.message.you{
+    background-color: #FFCDD2; 
+}
+
+.chat-questions{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-questions button{
+    background-color: #FF69B4; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.chat-questions button:hover{
+    background-color: #FF85B2; 
+}

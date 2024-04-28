@@ -1,0 +1,91 @@
+html {
+    font-family: sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    text-align: center;
+    background-color: wheat;
+}
+.user-information{
+    text-align: center;
+}
+
+.login-error-messages{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.login-form{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.input-guess-form{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.play-again-form{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+.restart-or-logout-options{
+    text-align:end;
+}
+
+input {
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+}
+
+
+button{
+    background-color: #95d9e7;
+    border-radius: 20px ;
+    margin-bottom: 5px;
+    width: 60px;
+}
+
+
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.word-list{
+    border: solid 2px white;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+
+.guess-error-message{
+    color: red;
+    text-align: center;
+}
+.user-guesses{
+    text-align: center;
+}
+.congrats-message{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+.user-guessed-words{
+    list-style:none ;
+}
+
+.user-guessed-word{
+    border: solid 2px black;
+    font-weight: bolder;
+}

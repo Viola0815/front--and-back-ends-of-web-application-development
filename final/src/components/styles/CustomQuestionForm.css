@@ -1,0 +1,81 @@
+.custom-question-page{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.header-section h2{
+  color: #FF69B4;
+}
+
+.options-buttons{
+  display: flex;
+  flex-direction: column;
+}
+  
+.options-buttons button{
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #FF69B4; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.options-buttons button:hover{
+  background-color: #FF85B2;
+}
+  
+.custom-question-form form{
+  display: flex;
+  flex-direction: column;
+}
+  
+.question-form, .email-form{
+  margin-bottom: 20px;
+}
+  
+.question-form label, .email-form label{
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #FF69B4; 
+}
+  
+.question-form input,
+.email-form input{
+  width: 95%;
+  padding: 10px;
+  border: 2px solid #FFB6C1; 
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+  
+.form-submission{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+  
+.form-submission button{
+    background-color: #FF69B4; 
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+.form-submission button:hover{
+    background-color: #FF85B2; 
+  }
+  

@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+header{
+    text-align: center;
+    background-color: wheat;
+}
+
+form{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+input {
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+}
+
+.error-messages{
+    text-align: center;
+    padding: 20px;
+    background-color: beige;
+}
+
+.nick-name{
+    border: solid 2px white;
+    padding: 5px;
+}
+
+button {
+    background-color: #95d9e7;
+    border-radius: 30px ;
+    padding: 10px;
+    width: 60px;
+}
+

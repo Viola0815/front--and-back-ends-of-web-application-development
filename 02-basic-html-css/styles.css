@@ -1,0 +1,28 @@
+header{
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    
+}
+header h1{
+    margin: auto;
+}
+
+footer{
+    background-color: bisque;
+    
+}
+main{
+    background-color: pink;
+   
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: lightcoral;
+  
+}

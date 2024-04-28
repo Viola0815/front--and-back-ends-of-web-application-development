@@ -1,0 +1,102 @@
+.app-container{
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f8f0f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+  
+.header{
+    background-color: #ff8eb7;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.header h1{
+    margin: 0;
+    font-size: 2em;
+}
+  
+.login-site {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+  
+.login-site form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+  
+.after-login-site,
+.attempt-login-site{
+    background-color: #ffddf4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+  
+.word-guessing-form form, .user-Info-and-logout-option {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
+  
+input {
+    width: max-content; 
+    margin-right: 20px; 
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff99cc;
+    margin-top: 5px;
+}
+  
+button{
+    background-color: #ff66b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.message{
+    color: #ff0066;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.winning-message{
+    color: #ff1493; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 20px; 
+    margin: 20px 0; 
+    background-color: #fff0f5; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.winning-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+  
+  
